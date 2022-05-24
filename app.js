@@ -1,5 +1,5 @@
 const menu = document.querySelector(".menu");
-const button = document.querySelector(".btn");
+
 const nav = document.querySelector(".menuOptions");
 
 menu.addEventListener("click", () => {
@@ -13,9 +13,6 @@ menu.addEventListener("click", () => {
     //console.log(nav);
   }
 
+  // one line toggle menu
   //   nav.classList.toggle("hide");
 });
-
-// button.addEventListener("click", () => {
-//   console.log(" btn clicked");
-// });
