@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  position: relative;
+  background-color: black;
+  color: #fff;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin: 1rem 2rem;
+}
+
+.menu {
+  font-size: 2rem;
+  position: absolute;
+  right: 2rem;
+  top: 0.5rem;
+  display: none;
+}
+
+.btn {
+  padding: 3rem;
+}
+
+.menuOptions {
+  border: 3px solid white;
+}
+
+@media (max-width: 700px) {
+  .hide {
+    display: none;
+  }
+  .menu {
+    display: block;
+    color: black;
+    background-color: white;
+  }
+}
